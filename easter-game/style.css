@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#canvas_game {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%; 
+	max-height: 100%;	
+}
+
+#layer1, #layer2, #gift1, #gift2, 
+#gift3, #gift4, #gift5, #gift6, #gift8, 
+#start, #gameover, #life, #dn1_fornt,#dn2_fornt,#dn3_fornt,#dn4_fornt,
+#dn1_right,#dn2_right,#dn3_right,#dn1_left,#dn2_left,#dn3_left,#bad_egg{
+	display: none;
+}
